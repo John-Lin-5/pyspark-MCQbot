@@ -1,3 +1,3 @@
 # pyspark-MCQbot
-1. TokenAndCreateDict讀入中文維基百科所有文檔，斷詞後存成rdd格式並統計單詞數量，然後將單詞對應到的文章建立inverted index，輸出為反向索引字典
+1. TokenAndCreateDict讀入中文維基百科所有文檔，斷詞後存成rdd格式並統計單詞數量，然後將單詞對應到的文章建立inverted index，輸出為反向索引字典。
 2. RunQA讀入反向索引字典，讀入題目並斷詞，分析題目斷詞結果，檢查題目間的詞彙重合度，並與選項中答案斷詞單詞一起比對，選出重合度高的答案。
